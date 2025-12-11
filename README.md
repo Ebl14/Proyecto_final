@@ -1,0 +1,2 @@
+# Proyecto_final
+Este proyecto implementa un sistema de monitoreo ambiental con un ESP32, utilizando sensores de temperatura/humedad (DHT22) y gas (MQ135), integrando un broker MQTT (Mosquitto/EMQX), una pantalla OLED SSD1306, manejo de PWM para ventilación, un buzzer, y un LED RGB para estados de alarma.  Además, implementa un sistema completo de calibración, cuyos parámetros se guardan en la Flash del ESP32 mediante Preferences, garantizando persistencia tras reinicios. Todo el sistema corre sobre FreeRTOS, distribuyendo las tareas en hilos independientes.
